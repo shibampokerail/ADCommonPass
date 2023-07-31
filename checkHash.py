@@ -2,7 +2,7 @@
 
 #Purpose: To check for and reveal AD user accounts that share passwords using a hashdump from a Domain Controller
 #Script requires a command line argument of a file containing usernames/hashes in the format of user:sid:LMHASH:NTLMHASH:::
-# ./check_hashes.py <hash_dump>
+# ./checkHash.py <hash_dump>
 
 import argparse
 import re
