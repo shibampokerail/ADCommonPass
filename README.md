@@ -7,6 +7,10 @@ Extracts hashes from ndts.dit and checks if same passwords is used by different 
 - ndts.dit file and system file
 
 ## Steps to Run
+- clone this repository 
+```
+git clone https://github.com/shibampokerail/ADCommonPass.git
+```
 - Place your ndts file and system file in the ndts folder
 - Then, type this in your linux terminal and hit enter.
 ```
