@@ -2,12 +2,13 @@
 
 #Purpose: To check for and reveal AD user accounts that share passwords using a hashdump from a Domain Controller
 #Script requires a command line argument of a file containing usernames/hashes in the format of user:sid:LMHASH:NTLMHASH:::
-# ./checkHash.py <hash_dump>
+# ./check_hashes.py <hash_dump>
 
 import argparse
 import re
 
 print("Checking for common passwords between accounts.....")
+print()
 
 parser = argparse.ArgumentParser(description="Check user hashes against each other to find users that share passwords")
 parser.add_argument('pwdump', help="Hashes in the pwdump format")
